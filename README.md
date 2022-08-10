@@ -15,6 +15,8 @@ The following main data source was used for this project:
 - Merging dataframes
 # Cosine Similarity
 - Also known as vector-based similarity, this formulation views two items and their ratings as vectors, and defines the similarity between them as the angle between these vectors:
+- ![image](https://user-images.githubusercontent.com/96784632/183915924-974d6e7e-124f-46af-bcfe-5150f9eb1d0b.png)
+
 
 # Recommender
 - User enters his favourite movie (or the movie on the basis of which he wants the system to recommend movies)
