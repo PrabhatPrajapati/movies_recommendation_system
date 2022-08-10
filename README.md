@@ -9,4 +9,13 @@ This repository contains the code for building movie recommendation engine.
 - Movie_Recommender_User_Input.py: Python file for allowing user's input of movie
 # Dataset
 The following main data source was used for this project:
-- [Movie dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+- [Movie dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+# Data Pre-processing
+- Dropping columns that are not required
+- Merging dataframes
+# Cosine Similarity
+- Also known as vector-based similarity, this formulation views two items and their ratings as vectors, and defines the similarity between them as the angle between these vectors:
+
+# Recommender
+- User enters his favourite movie (or the movie on the basis of which he wants the system to recommend movies)
+- Based on the user's input, recommendation is made by sorting the similarities in descending order
